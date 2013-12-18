@@ -1,0 +1,26 @@
+/*******************************************
+                COLOURS
+*******************************************/
+/*******************************************
+                GENERAL
+*******************************************/
+/* line 16, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+body {
+  background: #B8F0BD;
+  text-align: center;
+  font-family: sans-serif;
+  color: #3a0fa3; }
+
+/* line 23, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+h1 {
+  font-weight: bold;
+  font-size: 32px;
+  letter-spacing: -1px;
+  text-transform: uppercase;
+  text-shadow: 0 1px 0 rgba(255, 255, 255, 0.5);
+  padding: 150px 0 10px;
+  margin: 0; }
+
+/*******************************************
+                HEADER
+*******************************************/
