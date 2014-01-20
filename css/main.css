@@ -6307,18 +6307,20 @@ td.visible-print {
   th.hidden-print,
   td.hidden-print {
     display: none !important; } }
+@import url(http://fonts.googleapis.com/css?family=Coustard:400,900);
 /*******************************************
                 COLOURS
 *******************************************/
 /*******************************************
                 GENERAL
 *******************************************/
-/* line 20, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 19, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 body {
   background: #1a003b;
-  color: #adadad; }
+  color: #adadad;
+  font-family: 'Coustard', serif; }
 
-/* line 26, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 25, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 #container {
   max-width: 960px;
   margin: auto;
@@ -6326,94 +6328,94 @@ body {
   margin-top: 60px;
   margin-bottom: 40px; }
 
-/* line 34, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 33, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 section {
   display: block;
   padding: 10px; }
 
-/* line 40, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 39, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 h1 {
   font-weight: bold;
   margin: 0; }
 
-/* line 45, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 44, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 h3 {
   text-align: center; }
 
-/* line 49, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 48, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 a {
   color: #adadad; }
 
-/* line 52, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 51, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 a:hover {
   text-decoration: none;
   color: #cbcccf; }
 
-/* line 57, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 56, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 footer {
   text-align: center; }
 
 /*******************************************
                 NAV
 *******************************************/
-/* line 66, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 65, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 .navbar {
   background-color: #1a003b;
   height: 40px;
   border: none;
   padding-top: 5px; }
-  /* line 74, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 73, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   .navbar .container {
     margin: auto; }
-  /* line 78, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 77, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   .navbar #nav_name {
     font-size: 3em; }
-  /* line 82, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 81, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   .navbar .navbar-nav {
     float: right; }
 
-/* line 86, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 85, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 .navbar-inverse .navbar-nav > li > a {
   color: #adadad;
   font-size: 1.7em; }
 
-/* line 91, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 90, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 .navbar-inverse .navbar-nav > li > a:hover {
   color: #cbcccf; }
 
 /*******************************************
                 ABOUT
 *******************************************/
-/* line 100, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 99, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 #about {
   color: black;
   background-color: #939494;
   padding-bottom: 40px;
   margin-top: 20px; }
-  /* line 106, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 105, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #about h3 {
     margin-top: 50px; }
-  /* line 110, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 109, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #about .me {
     text-align: center; }
-    /* line 113, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+    /* line 112, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
     #about .me #portrait {
       height: 200px;
       margin-left: 30px; }
-    /* line 117, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+    /* line 116, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
     #about .me p {
       font-size: 1.3em; }
-  /* line 124, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 123, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #about .about p {
     font-size: 1.3em; }
-  /* line 131, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 130, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #about .toolbox .li_box {
     background-color: white;
     border: 5px solid #21004a;
     width: 194px;
     padding: 10px;
     margin-left: 30px; }
-    /* line 138, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+    /* line 137, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
     #about .toolbox .li_box .language_icons {
       max-width: 75px;
       max-height: 75px;
@@ -6422,50 +6424,50 @@ footer {
 /*******************************************
                 WORK
 *******************************************/
-/* line 154, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 153, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 #work {
   background-color: #353635;
   color: #adadad;
   padding-bottom: 40px; }
-  /* line 159, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 158, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #work h3 {
     margin-top: 50px; }
-  /* line 163, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 162, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #work .single_work {
     display: block;
     text-align: center; }
-    /* line 167, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+    /* line 166, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
     #work .single_work .work_image img {
       border: 5px solid #21004a;
       padding: 2px; }
-    /* line 172, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+    /* line 171, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
     #work .single_work .work_text {
       margin-top: 50px; }
-      /* line 175, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+      /* line 174, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
       #work .single_work .work_text a {
         color: #adadad; }
-      /* line 178, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+      /* line 177, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
       #work .single_work .work_text a:hover {
         color: #cbcccf; }
-      /* line 181, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+      /* line 180, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
       #work .single_work .work_text p {
         font-size: 1.3em; }
 
 /*******************************************
                 CONTACT
 *******************************************/
-/* line 193, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+/* line 192, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
 #contact {
   color: black;
   background-color: #939494;
   text-align: center; }
-  /* line 198, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 197, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #contact h3 {
     margin-top: 50px; }
-  /* line 203, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 202, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #contact h4 {
     padding-top: 40px; }
-  /* line 211, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  /* line 210, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #contact .social_icons a img {
     margin: 20px 10px 70px 10px; }
 /*
