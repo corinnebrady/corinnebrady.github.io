@@ -174,3 +174,6 @@ footer {
   /* line 222, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
   #contact .social_icons a img {
     margin: 20px 10px 70px 10px; }
+  /* line 225, /Users/corinne2/Projects/portfolio/source/css/portfolio.css.scss */
+  #contact .social_icons a img:hover {
+    border: 3px solid #21004a; }
